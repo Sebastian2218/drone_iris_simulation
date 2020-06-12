@@ -1,0 +1,11 @@
+**Terminal 1
+gazebo --verbose drone_iris_simulation/ardupilot_gazebo/worlds/iris.world
+
+
+**Terminal 2
+cd ~/drone_iris_simulation/ardupilot/ArduCopter
+../Tools/autotest/sim_vehicle.py -f gazebo-iris --console --map
+
+
+**Terminal 3
+./QGroundControl.AppImage
