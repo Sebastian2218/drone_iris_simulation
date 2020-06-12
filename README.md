@@ -10,7 +10,21 @@ A continuación se muestra a manera de tutorial, los comandos para clonar los re
 
 # Clonar este repositorio:
 
-git clone https://github.com/Sebastian2218/drone_iris_simulation.git      
+git clone https://github.com/Sebastian2218/drone_iris_simulation.git  
+
+cd drone_iris_simulation
+
+cd ardupilot_gazebo
+
+mkdir build
+
+cd build
+
+cmake ..
+
+make -j4
+
+sudo make install
 
 
 # Clonar el repositorio de ardupilot: (Se recomienda clonar el repositorio dentro de la carpeta generada al clonar el repositorio anterior)
